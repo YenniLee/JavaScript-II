@@ -4,6 +4,7 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 const name = "Jennie"
+
 function myName(){
   console.log(`My name is ${name}.`);
 }
